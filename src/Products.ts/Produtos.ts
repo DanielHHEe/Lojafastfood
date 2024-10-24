@@ -133,7 +133,7 @@ export const Products : Product[] = [
         id: 9,
         category: 'Temakis',
         name: 'Temaki de Salmão',
-        image: '/imagems/temaki/Temaki1.png',
+        image: '/imagems/temaki/Temaki5.png',
         price: 49,
 
     },
@@ -277,7 +277,7 @@ export const Products : Product[] = [
         id: 11,
         category: 'Temakis',
         name: 'Temaki de Unagi',
-        image: '/imagems/temaki/Temaki1.png',
+        image: '/imagems/temaki/Temaki2.png',
         price: 49,
 
     },
