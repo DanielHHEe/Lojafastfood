@@ -14,7 +14,8 @@ export const StepFinalizar = () => {
             <p style={{fontSize: '20px'}}>Agora envie seu pedido ao nosso WhatsApp para concluir. 
                 Nosso atendente irá te guiar sobre o andamento do pedido</p>
             <Button style={{ backgroundColor: '#007FFF', color: 'white'}} className="mt-7">
-                <Link style={{fontSize: '18px'}} target="_blank" href={linkZap}>Enviar para WhatsApp <WhatsAppOutlined  style={{fontSize: '20px', marginLeft: '8px'}} /></Link>
+                <Link style={{fontSize: '18px'}} target="_blank" href={linkZap}>Enviar para WhatsApp <WhatsAppOutlined  
+                style={{fontSize: '20px', marginLeft: '8px'}} /></Link>
             </Button>
         </div>
     )
