@@ -39,7 +39,7 @@ export const Produtos = async () => {
 
     return (
         <div>
-            <Tabs defaultValue="sushis" className="mt-20">
+            <Tabs defaultValue="sushis" className="mt-24">
                 <TabsList className="flex p-2" style={{ borderRadius: '7px', height: '45px' }}>
                     {tabs.map(item => (
                         <TabsTrigger

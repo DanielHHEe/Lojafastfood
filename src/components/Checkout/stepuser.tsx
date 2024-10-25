@@ -7,7 +7,13 @@ import { UseCheckoutStore } from "@/stores/checkout-store";
 import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { UserOutlined } from "@ant-design/icons";
 
+type PrefixType = string | JSX.Element;
+
+const MyInputComponent = () => {
+  const prefix: PrefixType = <UserOutlined />
+}
 
 const formSchema = z.object({
  
@@ -43,11 +49,11 @@ export const StepUser = ({ setStep }: Props) => {
           render={({ field }) => (
             <FormItem>
               <FormControl>
-                <Input
+              <Input
                   style={{ padding: "25px", textAlign: "center" }}
                   autoFocus
                   placeholder="Qual o seu nome?"
-                  className=" text-xl placeholder:text-lg "
+                  className="text-xl placeholder:text-lg"
                   {...field}
                 />
               </FormControl>
